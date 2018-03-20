@@ -5,7 +5,7 @@ html, body {
 }
 
 .header {
-  background: url('../img/beach2.png');
+  background: url('../img/beach.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -25,6 +25,14 @@ html, body {
   color: white;
 }
 
+#header-text h1 {
+  font-size: 60px;
+}
+
+#header-text h2 {
+  font-size: 40px;
+}
+
 .navbar {
   height: 100px;
   width: 100%;
@@ -34,16 +42,17 @@ html, body {
 .navbar #menu {
   display: inline-block;
   list-style: none;
-  padding: 25px 25px 0 0;
+  padding: 30px 70px 0 0;
   position: absolute;
   top: 0;
   right: 0;
   color: white;
+  font-size: 20px;
 }
 
 .navbar #menu li {
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 .navbar #menu li a {
@@ -57,7 +66,7 @@ html, body {
 
 #arrow-box {
   width: 70px;
-  height: 50px;
+  height: 60px;
   background: black;
   position: absolute;
   right: 0;
@@ -69,4 +78,81 @@ html, body {
   color: white;
   display: flex;
   justify-content: center;
+}
+
+
+/*** About ***/
+.about img {
+  width: 400px;
+  height: 400px;
+}
+
+.about {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 150px 20px;
+  background: #2980b9;
+  color: white;
+}
+
+
+/*** Projects ***/
+.projects .run {
+  padding: 150px 20px;
+  background: #e74c3c;
+  color: white;
+}
+
+.projects .row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.projects img {
+  max-width: 100%;
+  padding-bottom: 30px;
+}
+
+.projects h3 {
+  font-size: 25px;
+}
+
+.projects p {
+  padding-top: 20px;
+}
+
+
+/*** Contact ***/
+.contact {
+  padding: 100px 20px;
+  background: #2980b9;
+  color: white;
+}
+
+.contact .row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact h2 {
+  padding-bottom: 20px;
+}
+
+.contact ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+.contact li a {
+  font-size: 25px;
+  color: white;
+  padding: 20px 0;
+}
+
+.contact li a:hover {
+  color: grey;
 }

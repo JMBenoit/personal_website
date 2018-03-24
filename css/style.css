@@ -21,7 +21,6 @@ html, body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: -130px;
   color: white;
 }
 
@@ -31,37 +30,6 @@ html, body {
 
 #header-text h2 {
   font-size: 40px;
-}
-
-.navbar {
-  height: 100px;
-  width: 100%;
-  background: none;
-}
-
-.navbar #menu {
-  display: inline-block;
-  list-style: none;
-  padding: 30px 70px 0 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: white;
-  font-size: 20px;
-}
-
-.navbar #menu li {
-  display: inline-block;
-  padding-right: 40px;
-}
-
-.navbar #menu li a {
-  text-decoration: none;
-  color: white;
-}
-
-.navbar #menu li a:hover {
-  color: gray;
 }
 
 #arrow-box {
@@ -127,6 +95,7 @@ html, body {
 /*** Contact ***/
 .contact {
   padding: 100px 20px;
+  margin: 0 auto;
   background: #2980b9;
   color: white;
 }
@@ -137,22 +106,37 @@ html, body {
   justify-content: center;
 }
 
-.contact h2 {
-  padding-bottom: 20px;
+.contact #contact-box {
+  width: 250px;
+  padding: 0 50px;
+  margin: auto;
+  display: block;
+  position: relative;
+  justify-content: center;
+}
+
+.contact h3 {
+  padding: 20px 0;
+  text-align: center;
 }
 
 .contact ul {
   list-style: none;
   text-decoration: none;
   padding: 0;
+  text-align: left;
+}
+
+.contact li {
+  padding: 5px 0;
 }
 
 .contact li a {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
-  padding: 20px 0;
 }
 
 .contact li a:hover {
   color: grey;
+  text-decoration: none;
 }
